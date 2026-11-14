@@ -71,7 +71,7 @@ fails, the typed id works and the error is shown in the dialog. Spending still g
 
 ## Hackathon notes
 
-- Baseline (before gamification): the original NEAR Contractor, files other than those below. New in this submission: `contractor/missions.py`, `contractor/game.py`, the new `contractor/ui.py` page and endpoints, the `missions` and `play` CLI commands, seller price fields in `adapters/mock.py`, `runner.make_mission`, and `tests/test_game.py`. The diff is the commit range between the `pre-gamification` and `hackathon-submission` tags.
+- Baseline (before gamification): the original NEAR Contractor, files other than those below. New in this submission: `contractor/missions.py`, `contractor/game.py`, the new `contractor/ui.py` page and endpoints, the `missions` and `play` CLI commands, seller price fields in `adapters/mock.py`, `runner.make_mission`, and `tests/test_game.py`. Baseline commit: 7654310 (original NEAR Contractor engine, uploaded 13 Nov). The game layer was added afterwards, in the files listed above; the project also moved from a subfolder to the repo root, so use the file list above rather than the raw diff.
 - The NEAR integration (market.near.ai, NEAR Intents Agent API wallet) is in the baseline and unchanged by the game layer.
 
 ## Original README: NEAR Contractor (the engine under the game)
