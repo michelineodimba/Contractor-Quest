@@ -1,0 +1,28 @@
+{
+ "name": "Player",
+ "xp": 590,
+ "best": {
+  "launch-brief": {
+   "score": 590,
+   "grade": "C"
+  }
+ },
+ "badges": [
+  "first_deal",
+  "comeback",
+  "walk_away",
+  "hands_on"
+ ],
+ "board": {
+  "launch-brief": [
+   {
+    "name": "Player",
+    "score": 590,
+    "grade": "C",
+    "ts": 1794684931
+   }
+  ]
+ },
+ "plays": 1,
+ "wallet": null
+}
