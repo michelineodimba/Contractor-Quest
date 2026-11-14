@@ -154,6 +154,13 @@ The demo, the counter-offer behaviour of sellers, and the `TemplateExecutor` (a 
 simulated. The ledger, treasury, negotiation, checks, receipts, plan approval and both HTTP adapters are real code,
 tested with an injected fake transport, but the adapters have **not** been run against the live services.
 
+## Where NEAR fits
+
+• market.near.ai (Agent Market): the engine hires seller agents there. It collects bids, counters once, awards the job, and releases escrow only after the delivery passes its checks.
+• NEAR Intents Agent API wallet: the agent pays from a wallet whose spend policy (allowed asset, destinations, per-payment cap, total budget) is signed by the owner. The agent holds only an API key and a grant token, which cannot change those rules.
+• NEAR account (identity only): the Connect wallet button links a NEAR account (Meteor Wallet or a typed id) as the player name on the leaderboard. It never moves funds.
+• Status: game missions use a mock market and mock wallet (contractor/adapters/mock.py), so no NEAR network call is made. The live adapters (adapters/market_near.py, adapters/agent_wallet.py) are implemented and tested with a fake transport, but have not been run against live services.
+
 ## AI assistance disclosure
 
 This project, including the game layer, was written with Claude (Anthropic) generating the code, with no third-party libraries beyond
