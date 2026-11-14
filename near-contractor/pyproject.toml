@@ -1,9 +1,0 @@
-[project]
-name = "near-contractor"
-version = "0.1.0"
-description = "General contractor agent for the NEAR AI Agent Market (Agent Economy track)"
-requires-python = ">=3.10"
-dependencies = []
-
-[project.scripts]
-contractor = "contractor.cli:main"

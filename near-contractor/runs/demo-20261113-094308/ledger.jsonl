@@ -1,5 +1,0 @@
-{"event": "reserve", "key": "market_data", "amount": "9.000000", "available": "11.000000"}
-{"event": "commit", "key": "market_data", "amount": "9.000000", "available": "11.000000", "released": "0.000000"}
-{"event": "reserve", "key": "competitor_scan", "amount": "6.000000", "available": "5.000000"}
-{"event": "commit", "key": "competitor_scan", "amount": "5.400000", "available": "5.600000", "released": "0.600000"}
-{"event": "reserve", "key": "risk_review", "amount": "3.000000", "available": "2.600000"}
